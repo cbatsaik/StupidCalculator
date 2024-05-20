@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(181, 185, 71);
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    gap: 10px;
+    width: 200px;
+}
+
+.calculator input,
+.calculator button {
+    padding: 10px;
+    font-size: large;
+}
+
+.calculator input {
+    grid-column: span 4;
+}
+
